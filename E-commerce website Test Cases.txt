@@ -1,4 +1,4 @@
-Testing important for e-commerce website.
+Testing importance for an e-commerce website.
 
 Ecommerce website should be working on mobiles browser, laptops and applications so the testing techniques we are going to apply on out software are below.
 
@@ -80,5 +80,5 @@ NOTE -
 
 Ecommerce websites are very dynamic, with the new features continuously being added, so test cases must be updated to cater such changes.
 
-Ecommerce website also test well for accessiblity both on mobile and we to ensure an inclusive user experience for people with disablities.
+Ecommerce website also need to be tested well for accessiblity both on mobile and we to ensure an inclusive user experience for people with disablities.
 
