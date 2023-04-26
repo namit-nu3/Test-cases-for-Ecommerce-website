@@ -1,0 +1,84 @@
+Testing important for e-commerce website.
+
+Ecommerce website should be working on mobiles browser, laptops and applications so the testing techniques we are going to apply on out software are below.
+
+
+1- Functional Testing - end to end testing to check that the checkout feature is working or not.
+
+2- Usability Testing - user must be capable of identify what he wants to do and where he must go to search, filter, buy and for more options like sugestions. to make software easy to understand for user. 
+
+3- Security Testing - to make sure the data of every customer is safe. ex- cardnumber, mobile number, personal information.
+
+4- Performance Testing - at a time more than thousands of users can access the website and possibly a product(at the time of sale), the site should be functional and not crash.
+
+5- Mobile Application Testing - many user access the e-commerce website on their mobile phones, so the website must have a good user experience accross different mobile.
+
+
+GENRAL E-COMMERCE TEST CASES
+
+*the user shoul be able to navigate to all the pages in the website.
+*their should be a fallback page for any page load errors.
+*verify that all the links and banners are working properly.
+*search result shoul display most revelent items first and if the item is not listed then most closest to the search.
+*all data related to the product like - title, price, description, images are all visible clearly.
+*maintain a session for every user. 
+
+
+LOGIN PAGE Test cases
+1. Test for valid username and password
+2. Test Forget Password and Reset Password funtionality
+3. Validate if the user is registered on not, and if not, provide an option to create an account
+4. Show Login screen by default for registered user
+
+
+SEARCH BAR test cases
+1. Test at what parameters search is based on. 
+   ex- product name, brand name, category etc.
+2. test if the search result shown by algorithem is relevent.
+3. Number of result to be displayed per page.
+4. Test wheather the search API is being called at every Keystroke.(after pressing every key on keybord)  
+
+
+FILTER RESULT test cases
+1. Test if the user can filter based on all the parameters on the page.
+2. The user should be able to see results with default search criteria when at least one of the filter parameters isn't mandatory.
+3. Validation message for invalid filter criteria.
+4. when at least one filter criteria is required and user entered none, proper error msg should be displayed.
+
+
+PRODUCT DETAIL tets cases
+1. Test that all the product details are displayed correctly nad that no empty/invalid details are displayed.
+2. product image should be optimized for size and dimension, when the user clicks on it.
+3. All the links(size, pincode, available colors,etc) about the product should be functional.
+4. if there's breadcrumb navigation, each link in breadcrum should be funtional.(hierachy, attribute, path- based)
+
+
+SGOPPING CART test cases
+1. Test that all items are added into the cart.
+2. Test that all added items have at least a quantity, price and delete option associated with it. 
+3. Test that user can increase/decrease the quantity from the cart.
+4. If yhe use adds the same item to the cart the amount of that item should increase in the cart(price too if visible).
+5. On clsing the tab/leaving the site, the items should still be in the cart upon returning to the website. 
+
+
+CHECKOUT PAGE test cases
+1. User should be able to add coupons.
+2. User should be shown the total amount with the necessary breakup as applicable.
+3. User should be able to select the desired payment method.(card/upi/cod)
+4. Calculated shipping cost based on the shipping methods.
+5. Right address should be selected and the user should be able to edit/add the address.
+
+
+PAYMENTS test cases
+1. Peform security testing if in case user's credit card details nedd to be saved.
+2. For returning customer, they should be redirected to login for checkout.
+3. User should be logged out after the Payment session time is over.
+4. Email/Message conformation must be given when the order is conformed.
+ 
+
+NOTE - 
+
+Ecommerce websites are very dynamic, with the new features continuously being added, so test cases must be updated to cater such changes.
+
+Ecommerce website also test well for accessiblity both on mobile and we to ensure an inclusive user experience for people with disablities.
+
