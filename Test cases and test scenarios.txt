@@ -1,0 +1,24 @@
+TEST CASE -
+A Test Case is a set of actions executed to verify a particular feature or functionality of your software application. A Test Case contains test steps, test data, precondition, and postcondition developed for a specific test scenario to verify any requirement. The test case includes specific variables or conditions, using which a testing engineer can compare expected and actual results to determine whether a software product is functioning as per the requirements of the customer.
+
+TEST SCENARIOS - 
+Test Scenarios is a funtionalty that can be tested. it is a collective set of test cases which helps the testing team to deterine the positive and negative characterstics of the project.
+Test Scenarios gives an high level idea of what we need to test.
+
+
+
+Difference between test case and test scenarios
+
+1. A test Case is a set of actions executed to verify particular features or functionality, whereas a Test Scenario is any functionality that can be tested.
+
+2. Test Case is mostly derived from test scenarios, while Test Scenarios are derived from test artifacts like BRS and SRS.
+
+3. Test Case helps in exhaustive testing of an application, whereas Test Scenario helps in an agile way of testing the end-to-end functionality.
+
+4. Test Cases are focused on what to test and how to test, while Test Scenario is more focused on what to test.
+
+5. Test Cases are low-level actions, whereas Test Scenarios are high-level actions.
+
+6. Test Case requires more resources and time for test execution, while Test Scenario requires fewer resources and time for test execution.
+
+7. Test Case includes test steps, data, and expected results for testing, whereas Test Scenario includes an end-to-end functionality to be tested.
